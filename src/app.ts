@@ -1,6 +1,5 @@
 import 'dotenv/config'
 import {Server} from "./presentation/server";
-import { envs } from './config/plugins/env.plugin';
 
 (async()=>{
     main()
@@ -8,5 +7,4 @@ import { envs } from './config/plugins/env.plugin';
 
 function main(){
     Server.start()
-    console.log(envs)
 }
